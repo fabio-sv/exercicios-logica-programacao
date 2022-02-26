@@ -1,5 +1,4 @@
 // https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=false
-
 function miniMaxSum(arr) {
     let mini = Math.min(...arr)
     let max = Math.max(...arr) 
@@ -10,7 +9,6 @@ function miniMaxSum(arr) {
             if(arr[i] != mini)
             value2 += arr[i]
         }
-        
         for(let j = 0; j < arr.length; j++) {
             if(arr[j] != max) {
                 value1 += arr[j]
