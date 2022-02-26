@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true
 function diagonalDifference(arr) {
     let rows = arr.length
     let element = 0
@@ -14,7 +15,7 @@ function diagonalDifference(arr) {
     return diagonal1 > diagonal2 ? diagonal1 - diagonal2 : diagonal2 - diagonal1
 }
 
-let arr = [
+const arr = [
     [1, 2, 4, 2],
     [4, 6, 8, 0],
     [1, 4, 2, 0],
